@@ -5,13 +5,13 @@ import App from './App';
 import axios from 'axios';
 
 export const Api = axios.create({
-  baseURL:"http://localhost:3030"
+  baseURL: process.env.REACT_APP_BASEURL
 })
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
-);
-root.render(
+  );
+  root.render(
   <React.StrictMode>
     <App />
   </React.StrictMode>

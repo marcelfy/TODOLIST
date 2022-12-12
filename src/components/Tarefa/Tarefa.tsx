@@ -1,6 +1,5 @@
 import { DeleteOutlined } from '@ant-design/icons'
-import { Checkbox, message } from 'antd'
-import { CheckboxChangeEvent } from 'antd/es/checkbox'
+import { message } from 'antd'
 import React from 'react'
 import TarefaService from '../../service/TarefaService'
 import Styles from './Tarefa.module.css'
