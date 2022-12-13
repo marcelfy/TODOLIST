@@ -1,7 +1,7 @@
 import { DeleteOutlined } from '@ant-design/icons'
 import { message } from 'antd'
 import React from 'react'
-import TarefaService from '../../service/TarefaService'
+import TarefaService from '../../service/Tarefa.service'
 import Styles from './Tarefa.module.css'
 
 

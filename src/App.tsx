@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import TarefaService from './service/TarefaService';
+import TarefaService from './service/Tarefa.service';
 import './App.css'
 import { TarefaModel } from './model/TarefaModel';
 import { message } from 'antd';

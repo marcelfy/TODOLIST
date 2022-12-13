@@ -1,5 +1,6 @@
-import { Api } from './../index';
-import { TarefaModel } from './../model/TarefaModel';
+import { Api } from '../index';
+import { TarefaModel } from '../model/TarefaModel';
+
 const TarefaService = {
     post: async (tarefa:TarefaModel): Promise<any> =>{
         return await Api.post('/tarefas', tarefa)
